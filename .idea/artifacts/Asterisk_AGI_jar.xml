@@ -2,6 +2,9 @@
   <artifact type="jar" name="Asterisk-AGI:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Asterisk_AGI_jar</output-path>
     <root id="archive" name="Asterisk-AGI.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
       <element id="module-output" name="Asterisk-AGI" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/asteriskjava/asterisk-java/3.14.0/asterisk-java-3.14.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.12/reflections-0.9.12.jar" path-in-jar="/" />
